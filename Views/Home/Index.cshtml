@@ -1,0 +1,35 @@
+﻿@model UserCourseModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+    <form asp-controller="UserCourse" asp-action="Index" method="post">
+    <label>Name:</label>
+    <input type="text" asp-for="Name"/>
+    <br>
+    <label>Email:</label>
+    <input type="email" asp-for="Email"/>
+    <br>
+    <label>Courses:</label>
+    <div id="course-container">
+        <input type="text" name="Courses[0]" />
+    </div>
+    <button type="button" id="add-course">Add Course</button>
+
+    <button type="submit">Submit</button>
+</form>
+
+@section Scripts {
+    <script>
+        $('#add-course').click(function() {
+            var index = $('#course-container').children().length;
+            var html = '<input type="text" name="Courses[' + index + ']" />';
+            $('#course-container').append(html);
+        });
+    </script>
+}
+
+</div>
