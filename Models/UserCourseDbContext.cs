@@ -11,12 +11,8 @@ public class UserCourseDbContext : DbContext
     {
     }
 
-    public DbSet<User> Users { get; set; }
-    public DbSet<Course> Courses { get; set; }
-}
+    public DbSet<UserCourseModel> Users { get; set; }
+    public DbSet<UserCourseModel> Courses { get; set; }
 
-public void ConfigureServices(IServiceCollection services)
-{
-    services.AddDbContext<UserCourseDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 }
 }
