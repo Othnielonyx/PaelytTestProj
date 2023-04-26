@@ -1,10 +1,8 @@
 public class UserCourseModel
 {
-    public string Name { get; set; }
+   public string Name {get; set;}
 
-    
-    public string Email { get; set; }
+   public string Email {get; set;}
 
-    public List<string>Courses { get; set; }
-    public string ReferenceNumber { get; internal set; }
+   public List<string> Courses {get; set;}
 }
