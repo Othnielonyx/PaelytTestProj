@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\tella\\PaelytTest\\PaelytTest.csproj": {}
+    "C:\\Users\\tella\\PaelytTest\\PaelytTest.csproj": {}
   },
   "projects": {
-    "c:\\Users\\tella\\PaelytTest\\PaelytTest.csproj": {
+    "C:\\Users\\tella\\PaelytTest\\PaelytTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\tella\\PaelytTest\\PaelytTest.csproj",
+        "projectUniqueName": "C:\\Users\\tella\\PaelytTest\\PaelytTest.csproj",
         "projectName": "PaelytTest",
-        "projectPath": "c:\\Users\\tella\\PaelytTest\\PaelytTest.csproj",
+        "projectPath": "C:\\Users\\tella\\PaelytTest\\PaelytTest.csproj",
         "packagesPath": "C:\\Users\\tella\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\tella\\PaelytTest\\obj\\",
+        "outputPath": "C:\\Users\\tella\\PaelytTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
