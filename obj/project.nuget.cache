@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O+vUo/4u8EEURCkxyrUBuYS1VPAjLSyBi+tYldFqB0+ur6WTlI+wt4F1GOGCT9x78a4XdZ2SdE9NrUZBAVJ7Pw==",
+  "dgSpecHash": "LwoP0SV440/3N1gNR00gqYriagIppNl1hqX1Snurmf2QI/S17wOOscTRycz9bv5xcq7JnS6QnqY/CujIMrpQMQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tella\\PaelytTest\\PaelytTest.csproj",
+  "projectFilePath": "c:\\Users\\tella\\PaelytTest\\PaelytTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tella\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\tella\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
